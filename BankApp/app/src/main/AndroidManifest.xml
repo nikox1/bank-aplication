@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Internet permission for API calls -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_bank"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_bank"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BankApp"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        
+        <!-- Login Activity (Main) -->
+        <activity
+            android:name=".activities.LoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.BankApp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!-- Register Activity -->
+        <activity
+            android:name=".activities.RegisterActivity"
+            android:exported="false"
+            android:theme="@style/Theme.BankApp" />
+        
+        <!-- Dashboard Activity -->
+        <activity
+            android:name=".activities.DashboardActivity"
+            android:exported="false"
+            android:theme="@style/Theme.BankApp" />
+        
+        <!-- Transfer Activity -->
+        <activity
+            android:name=".activities.TransferActivity"
+            android:exported="false"
+            android:theme="@style/Theme.BankApp" />
+        
+        <!-- BLIK Activity -->
+        <activity
+            android:name=".activities.BlikActivity"
+            android:exported="false"
+            android:theme="@style/Theme.BankApp" />
+        
+        <!-- History Activity -->
+        <activity
+            android:name=".activities.HistoryActivity"
+            android:exported="false"
+            android:theme="@style/Theme.BankApp" />
+            
+    </application>
+
+</manifest>

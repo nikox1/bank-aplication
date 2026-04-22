@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-merged_res-33:\\drawable_ic_blik.xml.flat",
+        "source": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-main-35:\\drawable\\ic_blik.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-merged_res-33:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-main-35:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-merged_res-33:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-main-35:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-merged_res-33:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-main-35:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-merged_res-33:\\drawable_ic_history.xml.flat",
+        "source": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-main-35:\\drawable\\ic_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-merged_res-33:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-main-35:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-merged_res-33:\\drawable_blik_gradient.xml.flat",
+        "source": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-main-35:\\drawable\\blik_gradient.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-merged_res-33:\\layout_activity_history.xml.flat",
+        "source": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-main-35:\\layout\\activity_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-merged_res-33:\\drawable_header_gradient.xml.flat",
+        "source": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-main-35:\\drawable\\header_gradient.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-merged_res-33:\\drawable_ic_transfer.xml.flat",
+        "source": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-main-35:\\drawable\\ic_transfer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-merged_res-33:\\layout_activity_blik.xml.flat",
+        "source": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-main-35:\\layout\\activity_blik.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-merged_res-33:\\layout_activity_dashboard.xml.flat",
+        "source": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-main-35:\\layout\\activity_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-merged_res-33:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-main-35:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-merged_res-33:\\layout_item_transaction.xml.flat",
+        "source": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-main-35:\\layout\\item_transaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-merged_res-33:\\drawable_balance_gradient.xml.flat",
+        "source": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-main-35:\\drawable\\balance_gradient.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-merged_res-33:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-main-35:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-merged_res-33:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-main-35:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "pl.nikodem.bankapp-merged_res-33:/layout_activity_blik.xml.flat",
+        "source": "pl.nikodem.bankapp-main-35:/layout/activity_blik.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-merged_res-33:\\drawable_rounded_button.xml.flat",
+        "source": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-main-35:\\drawable\\rounded_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-merged_res-33:\\layout_activity_transfer.xml.flat",
+        "source": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-main-35:\\layout\\activity_transfer.xml"
+    },
+    {
+        "merged": "pl.nikodem.bankapp-merged_res-33:/layout_activity_transfer.xml.flat",
+        "source": "pl.nikodem.bankapp-main-35:/layout/activity_transfer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-merged_res-33:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-main-35:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-merged_res-33:\\drawable_ic_bank.xml.flat",
+        "source": "C:\\Users\\Sala45\\.gradle\\daemon\\8.2\\pl.nikodem.bankapp-main-35:\\drawable\\ic_bank.xml"
+    }
+]

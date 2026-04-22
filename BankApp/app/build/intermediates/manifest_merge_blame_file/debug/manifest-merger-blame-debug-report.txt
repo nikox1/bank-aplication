@@ -1,0 +1,194 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="pl.nikodem.bankapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Internet permission for API calls -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:6:5-67
+12-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:7:5-79
+13-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:7:22-76
+14
+15    <permission
+15-->[androidx.core:core:1.9.0] C:\Users\Sala45\.gradle\caches\transforms-3\f0f4ee7c3b88100b2d2cd4b05ab423cd\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+16        android:name="pl.nikodem.bankapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+16-->[androidx.core:core:1.9.0] C:\Users\Sala45\.gradle\caches\transforms-3\f0f4ee7c3b88100b2d2cd4b05ab423cd\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+17        android:protectionLevel="signature" />
+17-->[androidx.core:core:1.9.0] C:\Users\Sala45\.gradle\caches\transforms-3\f0f4ee7c3b88100b2d2cd4b05ab423cd\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+18
+19    <uses-permission android:name="pl.nikodem.bankapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+19-->[androidx.core:core:1.9.0] C:\Users\Sala45\.gradle\caches\transforms-3\f0f4ee7c3b88100b2d2cd4b05ab423cd\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.9.0] C:\Users\Sala45\.gradle\caches\transforms-3\f0f4ee7c3b88100b2d2cd4b05ab423cd\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+20
+21    <application
+21-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:9:5-62:19
+22        android:allowBackup="true"
+22-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:10:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.9.0] C:\Users\Sala45\.gradle\caches\transforms-3\f0f4ee7c3b88100b2d2cd4b05ab423cd\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+24        android:dataExtractionRules="@xml/data_extraction_rules"
+24-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:11:9-65
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:fullBackupContent="@xml/backup_rules"
+27-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:12:9-54
+28        android:icon="@drawable/ic_bank"
+28-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:13:9-41
+29        android:label="@string/app_name"
+29-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:14:9-41
+30        android:roundIcon="@drawable/ic_bank"
+30-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:15:9-46
+31        android:supportsRtl="true"
+31-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:16:9-35
+32        android:testOnly="true"
+33        android:theme="@style/Theme.BankApp"
+33-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:17:9-45
+34        android:usesCleartextTraffic="true" >
+34-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:18:9-44
+35
+36        <!-- Login Activity (Main) -->
+37        <activity
+37-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:22:9-30:20
+38            android:name="pl.nikodem.bankapp.activities.LoginActivity"
+38-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:23:13-53
+39            android:exported="true"
+39-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:24:13-36
+40            android:theme="@style/Theme.BankApp" >
+40-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:25:13-49
+41            <intent-filter>
+41-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:26:13-29:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:27:17-69
+42-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:27:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:28:17-77
+44-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:28:27-74
+45            </intent-filter>
+46        </activity>
+47
+48        <!-- Register Activity -->
+49        <activity
+49-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:33:9-36:52
+50            android:name="pl.nikodem.bankapp.activities.RegisterActivity"
+50-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:34:13-56
+51            android:exported="false"
+51-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:35:13-37
+52            android:theme="@style/Theme.BankApp" />
+52-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:36:13-49
+53
+54        <!-- Dashboard Activity -->
+55        <activity
+55-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:39:9-42:52
+56            android:name="pl.nikodem.bankapp.activities.DashboardActivity"
+56-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:40:13-57
+57            android:exported="false"
+57-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:41:13-37
+58            android:theme="@style/Theme.BankApp" />
+58-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:42:13-49
+59
+60        <!-- Transfer Activity -->
+61        <activity
+61-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:45:9-48:52
+62            android:name="pl.nikodem.bankapp.activities.TransferActivity"
+62-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:46:13-56
+63            android:exported="false"
+63-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:47:13-37
+64            android:theme="@style/Theme.BankApp" />
+64-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:48:13-49
+65
+66        <!-- BLIK Activity -->
+67        <activity
+67-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:51:9-54:52
+68            android:name="pl.nikodem.bankapp.activities.BlikActivity"
+68-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:52:13-52
+69            android:exported="false"
+69-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:53:13-37
+70            android:theme="@style/Theme.BankApp" />
+70-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:54:13-49
+71
+72        <!-- History Activity -->
+73        <activity
+73-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:57:9-60:52
+74            android:name="pl.nikodem.bankapp.activities.HistoryActivity"
+74-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:58:13-55
+75            android:exported="false"
+75-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:59:13-37
+76            android:theme="@style/Theme.BankApp" />
+76-->D:\_bank_serwer_kasyno\BankApp\app\src\main\AndroidManifest.xml:60:13-49
+77
+78        <provider
+78-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Sala45\.gradle\caches\transforms-3\4ef2d37eca9ad04b2c397a091ea18fe4\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+79            android:name="androidx.startup.InitializationProvider"
+79-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Sala45\.gradle\caches\transforms-3\4ef2d37eca9ad04b2c397a091ea18fe4\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+80            android:authorities="pl.nikodem.bankapp.androidx-startup"
+80-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Sala45\.gradle\caches\transforms-3\4ef2d37eca9ad04b2c397a091ea18fe4\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+81            android:exported="false" >
+81-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Sala45\.gradle\caches\transforms-3\4ef2d37eca9ad04b2c397a091ea18fe4\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+82            <meta-data
+82-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Sala45\.gradle\caches\transforms-3\4ef2d37eca9ad04b2c397a091ea18fe4\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+83                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+83-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Sala45\.gradle\caches\transforms-3\4ef2d37eca9ad04b2c397a091ea18fe4\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+84                android:value="androidx.startup" />
+84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Sala45\.gradle\caches\transforms-3\4ef2d37eca9ad04b2c397a091ea18fe4\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+85            <meta-data
+85-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Sala45\.gradle\caches\transforms-3\f41bcf8a8e0d9819e753268d38a40d88\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+86                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+86-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Sala45\.gradle\caches\transforms-3\f41bcf8a8e0d9819e753268d38a40d88\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+87                android:value="androidx.startup" />
+87-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Sala45\.gradle\caches\transforms-3\f41bcf8a8e0d9819e753268d38a40d88\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+88            <meta-data
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sala45\.gradle\caches\transforms-3\d7e75382fd4fb70314ddb3a6f5c689ec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+89                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sala45\.gradle\caches\transforms-3\d7e75382fd4fb70314ddb3a6f5c689ec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+90                android:value="androidx.startup" />
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sala45\.gradle\caches\transforms-3\d7e75382fd4fb70314ddb3a6f5c689ec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+91        </provider>
+92
+93        <receiver
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sala45\.gradle\caches\transforms-3\d7e75382fd4fb70314ddb3a6f5c689ec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+94            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sala45\.gradle\caches\transforms-3\d7e75382fd4fb70314ddb3a6f5c689ec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+95            android:directBootAware="false"
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sala45\.gradle\caches\transforms-3\d7e75382fd4fb70314ddb3a6f5c689ec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+96            android:enabled="true"
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sala45\.gradle\caches\transforms-3\d7e75382fd4fb70314ddb3a6f5c689ec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+97            android:exported="true"
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sala45\.gradle\caches\transforms-3\d7e75382fd4fb70314ddb3a6f5c689ec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+98            android:permission="android.permission.DUMP" >
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sala45\.gradle\caches\transforms-3\d7e75382fd4fb70314ddb3a6f5c689ec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+99            <intent-filter>
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sala45\.gradle\caches\transforms-3\d7e75382fd4fb70314ddb3a6f5c689ec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+100                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sala45\.gradle\caches\transforms-3\d7e75382fd4fb70314ddb3a6f5c689ec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sala45\.gradle\caches\transforms-3\d7e75382fd4fb70314ddb3a6f5c689ec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+101            </intent-filter>
+102            <intent-filter>
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sala45\.gradle\caches\transforms-3\d7e75382fd4fb70314ddb3a6f5c689ec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+103                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sala45\.gradle\caches\transforms-3\d7e75382fd4fb70314ddb3a6f5c689ec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sala45\.gradle\caches\transforms-3\d7e75382fd4fb70314ddb3a6f5c689ec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+104            </intent-filter>
+105            <intent-filter>
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sala45\.gradle\caches\transforms-3\d7e75382fd4fb70314ddb3a6f5c689ec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+106                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sala45\.gradle\caches\transforms-3\d7e75382fd4fb70314ddb3a6f5c689ec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sala45\.gradle\caches\transforms-3\d7e75382fd4fb70314ddb3a6f5c689ec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+107            </intent-filter>
+108            <intent-filter>
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sala45\.gradle\caches\transforms-3\d7e75382fd4fb70314ddb3a6f5c689ec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+109                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sala45\.gradle\caches\transforms-3\d7e75382fd4fb70314ddb3a6f5c689ec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sala45\.gradle\caches\transforms-3\d7e75382fd4fb70314ddb3a6f5c689ec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+110            </intent-filter>
+111        </receiver>
+112    </application>
+113
+114</manifest>
